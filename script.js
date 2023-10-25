@@ -1,6 +1,6 @@
 let player = {
     name: "Per",
-    chips: 200
+    chips: 2000
 }
 
 let cardList = []
@@ -56,6 +56,7 @@ function renderCard(){
     
     let x = player.chips
     sum.textContent = "Sum: " + total
+
     if(total <= 20){
         message = "Do you want to draw another Card?"
     }
@@ -70,7 +71,7 @@ function renderCard(){
     else{
         message = "GameOver! You are out of the game."
         isAlive = false
-        x -= 30
+        x -= 15
         player["chips"] = x
         playerEl.textContent = player.name + ": $" + player.chips
         winLose.textContent = "You Lose $30"
