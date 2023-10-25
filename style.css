@@ -14,11 +14,14 @@ body{
     color: #fff;
     background-image: url("image.jpg");
     background-size: cover;
-    padding: 70px;
+    padding: 50px;
 }
 h1{
     color: goldenrod;
     font-size: 100px;
+}
+#message-el{
+    font-style: italic;
 }
 p{
     font-size: 40px;
