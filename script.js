@@ -32,6 +32,7 @@ function randomCard(){
 
 function startGame(){
     isAlive = true
+    hasBlackJack = false
     total = 0
     let firstCard = randomCard()
     cardList = [firstCard]
