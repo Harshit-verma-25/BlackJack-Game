@@ -38,6 +38,7 @@ function startGame(){
     cardList = [firstCard]
     total = totalCard()
     renderCard()
+    winLose.textContent = ""
 }
 
 function totalCard(){
